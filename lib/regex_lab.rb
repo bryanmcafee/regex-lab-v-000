@@ -1,6 +1,5 @@
-def starts_with_a_vowel?(word).scan(/[aeiou]/)
-
-
+def starts_with_a_vowel?(word)
+"The rain in Spain lies mainly in the plain".scan(/[aeiou]/)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
